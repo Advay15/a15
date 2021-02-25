@@ -71,34 +71,33 @@ h2 {
 p {
     max-width: 450px;
     margin: 25px auto;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.3;
-    font-family: 'Long Cang', cursive;
+    font-family: monospace;
 }
 
 .menu {
-    list-style: none;
     font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    background: black;
+    top: 0px;
+    margin-top: 0px;
+    width: 100%;
     z-index: 10;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .links {
-    float: left;
-    color: azure;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px
 }
 
 .links:hover {
-    background-color: cornflowerblue
+    font-size: 27.5px;
+    text-decoration: underline;
 }
 
 html {
@@ -107,18 +106,38 @@ html {
 
 a {
     text-decoration: none;
+    color: darkgrey;
+    text-shadow: 0px 2px gainsboro;
 }
 
 .article:hover {
     color: cornflowerblue;
+    font-size: 30px;
+}
+
+#inspiration {
+    text-shadow: none !important;
+    text-decoration: bold !important;
+    color: azure !imortant;
+    text-align: center;
+    font-size: 30px;
+}
+
+#contact {
+    background: grey;
+    text-align: center;
+}
+
+.contact_1 a {
+    color: aliceblue;
+    text-shadow: none;
+    text-align: center;
+}
+
+.contact_1 h3 {
+    display: inline;
 }
 
 #work {
     text-align: center;
-}
-
-#inspiration {
-    text-align: center;
-    border-color: aliceblue;
-    border-width: 5px;
 }
